@@ -1,14 +1,16 @@
+
+
 import requests
 from bs4 import BeautifulSoup
 
 # URLs
-login_url = "http://xyz/"  # Replace with the actual login page URL
-protected_url = "http://2xyz"  # Replace with the protected page URL
+login_url = "http://xxxxxxxxxxxx/"  # Replace with the actual login page URL
+protected_url = "http://xxxxxxxxxxxx/SubTask_Dash.aspx"  # Replace with the protected page URL
 
 # Credentials
 payload = {
-    "txtusername": "xxxxxxxxxx",
-    "txtpass": "xxxxxxxx",
+    "txtusername": "xxxxx",
+    "txtpass": "xxxx@2024",
     "btnlogin": "Login"
 }
 
